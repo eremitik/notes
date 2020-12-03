@@ -1,6 +1,8 @@
 'use strict';
 
+console.log(`
 
+***Iterate through an Array***`)
 //Iterate through an Array
 
 //for in loop
@@ -26,8 +28,43 @@ console.log(`
   `)
 
 
+console.log(`
+
+***Manipulate Arrays***`)
+//Manipulate Arrays
+let testArr = [1,2,3,4,5]
+console.log(testArr)
+
+testArr.push(6)
+console.log(testArr)
+
+testArr.splice(1,1,'foo')
+console.log(testArr)
+
+testArr.splice(0,1)
+console.log(testArr)
+
+testArr.pop()
+console.log(testArr)
+
+testArr.unshift(1)
+console.log(testArr)
+
+testArr.shift()
+console.log(testArr)
 
 
+console.log(testArr[0])
+
+
+
+
+
+
+
+console.log(`
+
+***Iterate over an Object***`)
 //Iterate over an Object
 let student1 = {
   firstName: 'Steven',
@@ -67,6 +104,14 @@ console.log(`
 
 
 
+
+
+
+
+
+console.log(`
+
+***Iterate over the Properties of an Object + Childen Objects***`)
 //Iterate over the Properties of an Object + Childen Objects
 let person = {
   firstName: 'Steven',
@@ -92,10 +137,13 @@ for (let key in person){
   console.log(key, person[key])
 }
 
+
+
+
+
 console.log(`
 
 ***look through child object:`)
-
 //will look through the child object and give value
 const isObject = function(val){
   if (val === null){
@@ -114,6 +162,9 @@ for (let val in person){
   }
 }
 
+
+
+
 console.log(`
 
 ***function for looking through object all the way through:`)
@@ -129,3 +180,78 @@ const objProps = function(obj){
 }
 
 objProps(person);
+
+
+
+
+
+
+
+
+console.log(`
+
+***accessing properties in Objects***`)
+//Ways of accessing properties in Objects
+const benjaminButton = {
+  age: 25,
+  family: { son: 'Benadict Button'},
+  'favorite-songs': ['We are young', 'Young love', 'We aint getting older'],
+  '5yearPlan': 'Get younger'
+}
+const age = benjaminButton.age;     //dot method, returns 25
+console.log(age)
+
+const son = benjaminButton.family.son;
+console.log(son)
+
+const granddaughter = benjaminButton?.family?.daughter?.granddaughter; //returns undefined, as granddaughter isn't there. The '?' acts as ifs
+console.log(granddaughter)
+
+const faveSongs = benjaminButton['favorite-songs']; //square brackets method
+const myKey = '5yearPlan';
+console.log(benjaminButton[myKey]);
+
+const {family: oldFamily} = benjaminButton; //destructuring method
+console.log(oldFamily)
+
+
+
+
+
+
+
+
+
+console.log(`
+
+***adding key-value pair into an object***`)
+//Adding key-value pairs into an object
+let foods = {
+  apples: 25,
+  oranges: 32,
+  plums: 28
+};
+
+foods.bananas = 13
+foods['grapes'] = 35
+foods.strawberries = 27
+console.log(foods)
+console.log(foods.strawberries)
+console.log(foods['strawberries'])
+
+let strwbrrs = 'strawberries'
+console.log(foods[strwbrrs])
+
+
+
+
+
+
+
+/*Good links:
+https://javascript.info/object#square-brackets
+*/
+
+
+
+
