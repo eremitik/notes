@@ -1,13 +1,5 @@
-//higher order functions quick reference
-
-
-
-
 //.sort
 XXXX.sort(function(a,b){return a-b})
-
-
-
 
 
 //reverse loop
@@ -65,3 +57,12 @@ XXX.split(' ').map(Number)  //for converting string into array of numbers
 
 //is whole number or not
 n === parseInt(n, 10)       //the 10 is the radix, i.e. base 10 (2 is binary, 16 hexadecimal, etc.)
+
+
+//forEach loop
+const days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+days.forEach(function(day, index){console.log(`${day} is ${index+1}/7 out of the week.`)})
+
+
+//calling nested functions
+console.log(XXX(a)(b))    //you can double up the vars, without renaming a var first then passing through
