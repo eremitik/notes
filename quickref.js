@@ -85,6 +85,6 @@ for (i=0; n>X; i++){
 
 //memo for counting duplicate in string or number
 /*create a list first, of counting each occurance of character with a for loop.
-One you have the list, you can filter out characters with more than one occurance. See codewars 'Counting Duplicates'
+One you have the list, you can filter out characters with more than one occurance. See codewars 'Counting Duplicates'*/
 
 
