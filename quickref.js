@@ -49,6 +49,7 @@ newArr.join('')
 
 //split a number into its individual numbers
 n.toString().split('')
+`${n}`.split('')        //quicker
 
 
 //.map
@@ -66,3 +67,24 @@ days.forEach(function(day, index){console.log(`${day} is ${index+1}/7 out of the
 
 //calling nested functions
 console.log(XXX(a)(b))    //you can double up the vars, without renaming a var first then passing through
+
+
+//reduce method
+newArr.reduce((a,b)=>a+b,0)   //the ',0' at the end catches errors when there are no values in the newArr
+
+
+//using i in for loop as counter
+for (i=0; n>X; i++){
+  foobar
+} return i;    //foobar does what you want, and at the end just return i as its counting
+
+
+//stringify number quickly
+`${num}`      //no need to type .toString() 
+
+
+//memo for counting duplicate in string or number
+/*create a list first, of counting each occurance of character with a for loop.
+One you have the list, you can filter out characters with more than one occurance. See codewars 'Counting Duplicates'
+
+
