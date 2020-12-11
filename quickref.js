@@ -88,3 +88,14 @@ for (i=0; n>X; i++){
 One you have the list, you can filter out characters with more than one occurance. See codewars 'Counting Duplicates'*/
 
 
+//finding repeated or duplicate character or letter in a string or number
+for(var i=0; i<word.length; i++){
+  if(word.lastIndexOf(word[i]) !== word.indexOf(word[i]))  //finds unique position from behind, and if its NOT equal to position from front, the char is repeated. 
+
+
+//comparing two arrays, and trying to find unique values
+function array_diff(a, b) {
+  return a.filter(function(i){return b.indexOf(i) === -1})}   //when i is not found in array b, indexOf will give -1 as result.
+/*for loop format too*/
+for(var i=0; i<a.length; i++){
+        if(b.indexOf(a[i]) === -1)
