@@ -93,6 +93,11 @@ for(var i=0; i<word.length; i++){
   if(word.lastIndexOf(word[i]) !== word.indexOf(word[i]))  //finds unique position from behind, and if its NOT equal to position from front, the char is repeated. 
 
 
+//another way to only leave unique values using higher order functions
+var nonUnique = "ababdefegg";
+var unique = nonUnique.split('').filter(function(item, i, ar){ return ar.indexOf(item) === i; }).join('');
+
+
 //comparing two arrays, and trying to find unique values
 function array_diff(a, b) {
   return a.filter(function(i){return b.indexOf(i) === -1})}   //when i is not found in array b, indexOf will give -1 as result.
@@ -106,3 +111,4 @@ var result = [], last
 for (var i = 0; i < it.length; i++) {
     if (it[i] !== last) {
       result.push(last = it[i])
+
