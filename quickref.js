@@ -99,3 +99,10 @@ function array_diff(a, b) {
 /*for loop format too*/
 for(var i=0; i<a.length; i++){
         if(b.indexOf(a[i]) === -1)
+
+
+//clever way to update two values within for loop
+var result = [], last
+for (var i = 0; i < it.length; i++) {
+    if (it[i] !== last) {
+      result.push(last = it[i])
