@@ -112,3 +112,7 @@ for (var i = 0; i < it.length; i++) {
     if (it[i] !== last) {
       result.push(last = it[i])
 
+
+//for loop which has a variable within the loop condition
+for(var i=1, sum=0; sum<m; sum+=i*i*i, i++);    //the sum gets incrementally calc'd, no need to declare below the for loop
+    return sum===m ? (i-1) : -1;
