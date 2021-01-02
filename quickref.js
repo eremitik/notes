@@ -116,3 +116,33 @@ for (var i = 0; i < it.length; i++) {
 //for loop which has a variable within the loop condition
 for(var i=1, sum=0; sum<m; sum+=i*i*i, i++);    //the sum gets incrementally calc'd, no need to declare below the for loop
     return sum===m ? (i-1) : -1;
+
+
+//to breakup string into pairs of characters
+  for (i=0; i<str.length; i+=2)
+    pairs.push(str.substring(i,i+2))  //this pushes pairs of characters into an array, i.e. ['ab', 'cd', 'e']
+
+
+//when you want to loop through array, so every posibble iteration
+  for (i=0; i<numbers.length; i++){
+    for (j=i+1; j<numbers.length; j++){}}   // for [1,2,3], this would loop through: 1,2  1,3  2,3  
+
+
+//convert string array to numbers with .map
+let newArr = XYZ.map(Number)
+
+
+
+//to chop or separate string into n-length characters, words or numbers
+  for (i=0; i<d.length; i+=8){
+    newArr.push(d.substring(i,i+8))
+
+
+//to chop or separate array into n-length characters in each array
+  let k=0
+  while (k<arr.length){
+    ansArr.push(arr.slice(k,k+=n))
+  }
+
+
+//for chopping and more looping examples, look at Multiplication tables solutions from codewars.
