@@ -146,3 +146,10 @@ let newArr = XYZ.map(Number)
 
 
 //for chopping and more looping examples, look at Multiplication tables solutions from codewars.
+
+
+//ternary operation, with multiple outcomes for each t/f condition
+foobar test ? (a result, b result) : (c result, d result)
+
+
+
