@@ -41,7 +41,7 @@ call plug#end()
 
 " colorscheme gruvbox
 colorscheme peachpuff
-" colorscheme monokai-pheonix
+" colorscheme monokai-phoenix
 set background=dark
 
  if executable('rg')
