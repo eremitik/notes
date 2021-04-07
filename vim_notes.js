@@ -1,3 +1,5 @@
+/*
+
 VIM RC edit --- :vim ~/.vimrc
 INSTALL plugs --- :source%, then :PlugInstall
 
@@ -49,3 +51,5 @@ ctrl + ww --- switch pane
 (viewmode) zz --- center screen
 (viewmode) V --- highlight line
 (viewmode) ^ --- jump to front of line
+
+*/
