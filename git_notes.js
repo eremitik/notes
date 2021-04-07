@@ -1,3 +1,5 @@
+/*
+
 git status --- see which branch you're in
 git branch-a --- see all available branches
 git checkout xxx --- switch to xxx branch
@@ -18,3 +20,5 @@ git push origin master
 [git cloning repo]
 git clone -b xxx https://
 (-b is branch call, xxx is branch name
+
+*/
