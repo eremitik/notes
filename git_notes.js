@@ -21,4 +21,10 @@ git push origin master
 git clone -b xxx https://
 (-b is branch call, xxx is branch name
 
+[first push to github]
+create repo, copy url
+git init
+git remote add origin https://github.com/xxx/xxx.git
+git commit -m "xxx"
+git push origin master
 */
