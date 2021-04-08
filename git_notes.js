@@ -27,4 +27,7 @@ git init
 git remote add origin https://github.com/xxx/xxx.git
 git commit -m "xxx"
 git push origin master
+
+[notes for pushing to github pages]
+https://github.com/gitname/react-gh-pages
 */
