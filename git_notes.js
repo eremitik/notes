@@ -25,6 +25,7 @@ git clone -b xxx https://
 create repo, copy url
 git init
 git remote add origin https://github.com/xxx/xxx.git
+git branch -m master main
 git commit -m "xxx"
 git push origin master
 
