@@ -26,8 +26,9 @@ create repo, copy url
 git init
 git remote add origin https://github.com/xxx/xxx.git
 git branch -m master main
+git add .
 git commit -m "xxx"
-git push origin master
+git push origin main
 
 [notes for pushing to github pages]
 https://github.com/gitname/react-gh-pages
