@@ -1,7 +1,7 @@
-/*
+VIM RC edit --- $vim ~/.vimrc
+INSTALL plugs --- $source%, then :PlugInstall
 
-VIM RC edit --- :vim ~/.vimrc
-INSTALL plugs --- :source%, then :PlugInstall
+Flip between vim & terminal: Ctrl + Z (in vim), $fg (in terminal)
 
 Vim Commands
 !node % --- runs JS file in Node
@@ -52,4 +52,3 @@ ctrl + ww --- switch pane
 (viewmode) V --- highlight line
 (viewmode) ^ --- jump to front of line
 
-*/
