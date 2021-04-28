@@ -19,6 +19,8 @@ ctrl + ww --- switch pane
 :%s/xxx/yyy/g --- search & replace all (g=greedy)
 
 (in Nerdtree) ma --- make a new file or folder
+(in Nerdtree) r --- refresh file tree in cursor root to see created file or remove deleted file
+(in Nerdtree) R --- refresh file root
 
 (viewmode) yy --- copy
 (viewmode) p --- paste
