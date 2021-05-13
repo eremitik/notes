@@ -33,3 +33,7 @@ git push origin main
 [notes for pushing to github pages]
 https://github.com/gitname/react-gh-pages
 */
+
+[change git remote url]
+git remote set-url ogirin ***new url***
+git remote -v
