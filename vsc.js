@@ -5,3 +5,7 @@ cmd + E --- jump to Explorer (side menu)
 cmd + b --- hide Explorer
 cmd + P --- shell command
 ctrl + ` --- terminal
+
+
+//adjust vscode terminal font size
+https://vscode.one/terminal-font-size/
