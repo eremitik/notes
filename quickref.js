@@ -152,4 +152,35 @@ let newArr = XYZ.map(Number)
 foobar test ? (a result, b result) : (c result, d result)
 
 
+// quick demo of calling methods without '.' way
+let name = 'Mikio'
+let method = 'toUpperCase'
+console.log(name[method]())
 
+
+// quick demo of closure
+let inner = (x) => console.log(x)
+let cb = (func) => {
+  arg = 'woohoo'
+  func(arg)
+}
+console.log(cb(inner))
+
+
+// no need for another return after ':' here, as the return is implied. 
+ memoize = (func) => {
+     let cache = {}
+      return (...args) => cache[`${args}`]
+        ? cache[`${args}`] 
+        : cache[`${args}`] = func(...args)
+            
+      /*  
+      return (...args) => {
+        if (cache[`${args}`]) {
+          cache[`${args}`]
+        } else {
+          return cache[`${args}`]  = func(...args)
+        }
+      }
+      */
+ };
