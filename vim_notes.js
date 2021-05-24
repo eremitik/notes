@@ -17,6 +17,7 @@ ctrl + ww --- switch pane
   N --- jump to previous searched word
 :ctrlSF xxx --- search entire project folder for 'xxx'
 :%s/xxx/yyy/g --- search & replace all (g=greedy)
+:set nonumber --- remove line numbers
 
 (in Nerdtree) ma --- make a new file or folder
 (in Nerdtree) r --- refresh file tree in cursor root to see created file or remove deleted file
