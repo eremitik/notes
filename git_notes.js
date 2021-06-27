@@ -37,4 +37,12 @@ https://github.com/gitname/react-gh-pages
 git remote set-url origin ***new url***
 git remote -v
 
+[pushing code to pp branch]
+git checkout -b yourname-xxxx
+git push -u origin yourname-xxx
+git add .
+git commit -m “our first commit”
+git status (---- just to check ----)
+git push (--- you only need git push here as you already set the origin in step 2)
+
 */
