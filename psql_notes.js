@@ -76,4 +76,8 @@ AND EXTRACT(year FROM checked_in_at) = 2016;
 =# UPDATE students SET town_of_origin = INITCAP(town_of_origin);
 
 
+
+[SQL notes]
+Commonly used SQL server data types: INT, VARCHAR, DATE, DATETIME, DECIMAL, FLOAT, BIT, BOOLEAN
+
 */
