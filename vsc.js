@@ -6,7 +6,7 @@ control + enter --- open file (while in Explorer)
 cmd + b --- hide Explorer
 cmd + P --- shell command
 ctrl + ` --- terminal
-
+cmd + ~ --- switch vsc windows (different projects open)
 
 //adjust vscode terminal font size
 https://vscode.one/terminal-font-size/
