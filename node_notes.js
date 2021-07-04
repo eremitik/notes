@@ -12,4 +12,8 @@ $http-server (to run on localhost: 8080)
 $node-sass -w in.scss out.css
 make sure to run in separate terminal, in.scss is the name of main file and out.css name of target file
 
+[install as dev package]
+$npm i -D
+$npm i --save-dev
+
 */
