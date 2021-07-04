@@ -21,6 +21,7 @@
 =# CREATE TABLE “helloworld” (id int PRIMARY KEY, val varchar); --- creates table
 =# SELECT * FROM helloworld; --- selects id + val from the example right above
 =# INSERT INTO “helloworld” VALUES (1, ‘hello’), (2, ‘world’); --- inserts data into table
+=# DELETE FROM table_name WHERE condition;
 
 ~% createuser -s jon --- creates new user
 ~% brew services start postgres --- just in case you get error of server not up for psql
