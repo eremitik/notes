@@ -79,5 +79,9 @@ AND EXTRACT(year FROM checked_in_at) = 2016;
 
 [SQL notes]
 Commonly used SQL server data types: INT, VARCHAR, DATE, DATETIME, DECIMAL, FLOAT, BIT, BOOLEAN
+The FOREIGN KEY constraint is used to prevent actions that would destroy links between tables.
+A junction table contains the primary key columns of the two tables you want to relate. -cont'd on next line
+-You then create a relationship from the primary key columns of each of those two tables to the matching columns in the junction table. 
+
 
 */
