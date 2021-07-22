@@ -45,4 +45,10 @@ git commit -m “our first commit”
 git status (---- just to check ----)
 git push (--- you only need git push here as you already set the origin in step 2)
 
+[to reinstate gitignore file]
+git rm -r --cached .
+git add .
+git commit -m "hoge hoge"
+got push origin hoge-hoge
+
 */
