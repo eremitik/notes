@@ -51,4 +51,10 @@ git add .
 git commit -m "hoge hoge"
 got push origin hoge-hoge
 
+[to keep yourbranchname in sync with master]
+git checkout master
+git pull
+git checkout yourbranchname
+git merge master
+
 */
