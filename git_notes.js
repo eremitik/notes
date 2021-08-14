@@ -60,4 +60,7 @@ git pull
 git checkout yourbranchname
 git merge master
 
+[setup personal token]
+https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git
+
 */
