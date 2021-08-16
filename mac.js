@@ -1,3 +1,5 @@
+/*
+
 ^right or left --- switch btwn desktops
 option+command+u,i,j,k --- for Tiles app, push window into a corner on desktop
 command+w --- closes only the current window, not whole application
@@ -13,3 +15,5 @@ For Ubuntu mono font: http://jr0cket.co.uk/2013/08/developing-on-macosx-more-hum
 ***to disable*** defaults write com.apple.dock autohide-delay -float 1000; killall Dock
 ***to restore*** defaults delete com.apple.dock autohide-delay; killall Dock
 command+option+d --- toggle dock to show
+
+*/
