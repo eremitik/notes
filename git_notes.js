@@ -60,6 +60,10 @@ git pull
 git checkout yourbranchname
 git merge master
 
+[git pulling to latest version of branch]
+git fetch --all && git reset --hard origin/XXX
+(XXX is the branch name)
+
 [setup personal token]
 https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git
 
