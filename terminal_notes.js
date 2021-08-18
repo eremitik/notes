@@ -6,5 +6,6 @@ open image --- $inkview xxx.svg
 copy file --- $cp App.js CopyApp.js
 delete .ds_store file --- $ find . -name '.DS_Store' -type f -ls -delete
 move file --- $mv ~/Downloads/MyFile.txt ~/Documents/Work/MyFile.txt
+see all hidden files --- ls -al
 
 */
