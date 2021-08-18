@@ -7,5 +7,6 @@ copy file --- $cp App.js CopyApp.js
 delete .ds_store file --- $ find . -name '.DS_Store' -type f -ls -delete
 move file --- $mv ~/Downloads/MyFile.txt ~/Documents/Work/MyFile.txt
 see all hidden files --- ls -al
+kill all instances on port 8080 --- npx kill-port 8080
 
 */
