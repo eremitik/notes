@@ -9,11 +9,11 @@ command+delete --- send file to trash
 
 ## Links
 
-For keyboard shortcut to open terminal: https://clay-atlas.com/us/blog/2020/12/14/mac-os-en-open-terminal-by-shortcut-key/\
-For Ubuntu mono font: http://jr0cket.co.uk/2013/08/developing-on-macosx-more-human-with.html.html
+For keyboard shortcut to [open terminal](https://clay-atlas.com/us/blog/2020/12/14/mac-os-en-open-terminal-by-shortcut-key/).
+For Ubuntu [mono font](http://jr0cket.co.uk/2013/08/developing-on-macosx-more-human-with.html).
 
 ## Disabling dock
 
-**_to disable_** defaults write com.apple.dock autohide-delay -float 1000; killall Dock\
-**_to restore_** defaults delete com.apple.dock autohide-delay; killall Dock\
+**_to disable:_** defaults write com.apple.dock autohide-delay -float 1000; killall Dock\
+**_to restore:_** defaults delete com.apple.dock autohide-delay; killall Dock\
 command+option+d --- toggle dock to show

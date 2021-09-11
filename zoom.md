@@ -1,5 +1,5 @@
 ## Keyboard shortcuts while in app
 
-cmd + shift + a > mute/unmute toggle\
-spacebar > temporarily unmute (hold down spacebar while talking)\
-cmd + shift + v > video on/off toggle
+**_mute/unmute toggle:_** cmd + shift + a
+**_temporarily unmute:_** hold down spacebar
+**_video on/off toggle:_** cmd + shift + v
