@@ -22,7 +22,7 @@ git push origin master
 ## Cloning repo
 
 git clone -b xxx https://\
-(-b is branch call, xxx is branch name
+(-b is branch call, xxx is branch name)
 
 ## Cloning specific branch
 
