@@ -1,5 +1,3 @@
-/*
-
 git status --- see which branch you're in
 git branch-a --- see all available branches
 git checkout xxx --- switch to xxx branch
@@ -37,7 +35,7 @@ git push origin main
 https://github.com/gitname/react-gh-pages
 
 [change git remote url]
-git remote set-url origin ***new url***
+git remote set-url origin **_new url_**
 git remote -v
 
 [pushing code to pp branch]
@@ -66,5 +64,3 @@ git fetch --all && git reset --hard origin/XXX
 
 [setup personal token]
 https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git
-
-*/
