@@ -32,7 +32,7 @@ git clone --single-branch --branch <branchname> <remote-repo>
 
 create repo, copy url\
 git init\
-git remote add origin https://github.com/xxx/xxx.git\
+git remote add origin "https://github.com/xxx/xxx.git"\
 git branch -m master main\
 git add .\
 git commit -m "xxx"\
