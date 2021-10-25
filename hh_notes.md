@@ -19,3 +19,8 @@ npm i -g hardhat-shorthand --- this replaces 'npx hardhat' with just 'hh' for co
 @nomiclabs/hardhat-waffle ---integration with waffle and hh\
 ethers --- complete ETH wallet implementation and utils in JS\
 ethereum-waffle --- framework for testing smart contracts
+
+## Deploying SC to localhost
+hh node --- runs blockchain on local network
+hh compile --- compiles the smart contracts, leaves artifacts
+hh run scripts/xxx.js --network localhost --- run deploy script
