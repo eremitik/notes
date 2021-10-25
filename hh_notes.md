@@ -1,0 +1,16 @@
+## Basics
+
+npx hardhat --- start a new project in empty folder\
+npx hardhat --- once hardhat.config.js is made, this will bring up menu of commands\
+npx hardhat accounts --- prints list of accounts available\
+npx hardhat compile --- compiles project, builds all artifacts (ABIs)\
+npx hardhat test --- runs test, no need to spin up local blockchain\
+npx hardhat test --network kovan --- runs test on kovan network\
+npx hardhat node --- spins up a local node, similar to ganache\
+
+
+## Unique features of Hardhat 
+
+import "hardhat/console.sol"; --- place in .sol file, you can print to console\
+npm i -g hardhat-shorthand --- this replaces 'npx hardhat' with just 'hh' for commands\
+
