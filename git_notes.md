@@ -75,6 +75,10 @@ git merge master
 git fetch --all && git reset --hard origin/XXX\
 (XXX is the branch name)
 
+## Reset local repo to clear all branches but `main`
+
+git branch | grep -v "main" | xargs git branch -D
+
 ## Setup personal token
 
 https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git
