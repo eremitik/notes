@@ -28,8 +28,10 @@ N --- jump to previous searched word
 ```
 
 ma --- make a new file or folder
-r --- refresh file tree in cursor root to see created file or remove deleted file\
+r --- refresh file tree in cursor root to see created file or remove deleted file
 R --- refresh file root
+ctrl + b --- open Nerdtree panel
+ctrl + ww --- swtich between nerdtree and panel
 ```
 
 ## View mode
