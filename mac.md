@@ -1,13 +1,13 @@
 ## Basics
 
 ^right or left --- switch btwn desktops\
-option+command+u,i,j,k --- for Tiles app, push window into a corner on desktop\
-command+w --- closes only the current window, not whole application\
-command+`--- scroll through open windows in an app (i.e. go through all the terminal windows)\
-command+> --- toggle show/hide hidden files+folders\
-command+delete --- send file to trash\
-command+% ---screen record, command+% again to stop\
-command+$+space --- screenshot entire desktop screen
+option+ command+ u,i,j,k --- for Tiles app, push window into a corner on desktop\
+command+ w --- closes only the current window, not whole application\
+command+ ~ --- scroll through open windows in an app (i.e. go through all the terminal windows)\
+command+ > --- toggle show/hide hidden files+folders\
+command+ delete --- send file to trash\
+command+ % ---screen record, command+% again to stop\
+command+ $ + space --- screenshot entire desktop screen
 
 ## Links
 
