@@ -1,8 +1,11 @@
+syntax on
+
 set nobackup
 set undodir=~/.vim/undodir
 set undofile
 set incsearch
 set nocompatible
+set number
 
 " set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
@@ -58,7 +61,7 @@ let g:ale_set_highlights = 0
 " inoremap {<CR> {<CR>}<ESC>O
 " inoremap {;<CR> {<CR>};<ESC>O
 
-map <silent> <C-n> :NERDTreeFocus<CR>
+map <silent> <C-b> :NERDTreeFocus<CR>
 let g:NERDTreeWinSize=40
 
 
