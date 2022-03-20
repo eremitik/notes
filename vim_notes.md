@@ -21,6 +21,7 @@ N --- jump to previous searched word
 :ctrlSF xxx --- search entire project folder for 'xxx'
 :%s/xxx/yyy/g --- search & replace all (g=greedy)
 :set nonumber --- remove line numbers
+* --- jump to next word under cursor (similar to cmd + d in vstudio)
 ```
 
 ## Nerdtree

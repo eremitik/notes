@@ -3,7 +3,7 @@
 cmd + d --- create new window\
 cmd + D --- create new window (vertically)\
 cmd + shift + return --- make curr window fullscreen\
-cmd + w --- exit window (close it)\
+cmd + w --- exit window (close it)
 
 # In terminal
 ctrl + l --- clear screen\
@@ -12,6 +12,7 @@ ctrl + e --- jump to end of line\
 ctrl + d ---  delete right of cursor\
 ctrl + k --- delete right of '_' char\
 ctrl + u --- clear the line\
+ctrl + d --- delete curr window within terminal
 
 # Navigation
 pwd --- print working director (shows path)\
