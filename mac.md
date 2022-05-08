@@ -9,6 +9,10 @@ command+ delete --- send file to trash\
 command+ % ---screen record, command+% again to stop\
 command+ $ + space --- screenshot entire desktop screen
 
+## Finder
+command + o --- open the file\
+command + up --- move up one folder
+
 ## Links
 
 For keyboard shortcut to [open terminal](https://clay-atlas.com/us/blog/2020/12/14/mac-os-en-open-terminal-by-shortcut-key/).
