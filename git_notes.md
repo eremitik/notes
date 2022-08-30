@@ -79,6 +79,12 @@ git fetch --all && git reset --hard origin/XXX\
 
 git branch | grep -v "main" | xargs git branch -D
 
+## Make commit for only one file
+
+git commit -m "push one file" path/to/file/File.tsx\
+git push origin XXX\
+(XXX is the branch name)
+
 ## Setup personal token
 
 https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git
