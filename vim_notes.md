@@ -38,6 +38,8 @@ ctrl + ww --- swtich between nerdtree and panel
 ## View mode
 
 ```
+:w --- save
+:wq --- save, quit
 yy --- copy
 p --- paste
 C-w --- when VIM gets stuck

@@ -9,6 +9,7 @@ cmd + b --- hide Explorer
 cmd + P --- shell command
 ctrl + ` --- terminal
 cmd + ~ --- switch vsc windows (different projects open)
+cmd + , --- open settings menu
 ```
 
 ## Adjust vscode terminal font size
